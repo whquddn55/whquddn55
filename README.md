@@ -1,4 +1,4 @@
-[![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=whquddn55)](https://solved.ac/whquddn55)
+[![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=whquddn55)](https://solved.ac/whquddn55) [![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=god_god)](https://solved.ac/god_god)
 
 ## 경력
 * 제4회 부산대학교 창의융합SW해커톤 장려상
