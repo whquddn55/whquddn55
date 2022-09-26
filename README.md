@@ -11,6 +11,9 @@
 * 2022 삼성전자 대학생 프로그래밍 경진대회(SCPC) 본선 진출
 * 2022 제3회 AI·블록체인 아이디어 경진대회 우수상 수상
 * 2022 부산코딩경진대회 대학부 2위
+* 2022 제 2회 부산대학교 프로그래밍 대회 Coderace 문제 출제
+  - https://www.acmicpc.net/problem/25577
+  - https://www.acmicpc.net/problem/25579
 
 ##  Skills
 ### language
