@@ -14,6 +14,9 @@
 * 2022 제 2회 부산대학교 프로그래밍 대회 Coderace 문제 출제
   - https://www.acmicpc.net/problem/25577
   - https://www.acmicpc.net/problem/25579
+  
+* ~~2022 PNU 대학생 프로그래밍 경진대회 대상~~
+* ~~2022 대학생 프로그래밍 경시대회(ICPC) 본선 진출~~
 
 ##  Skills
 ### language
