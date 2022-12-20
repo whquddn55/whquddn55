@@ -36,8 +36,8 @@
 
 ##  Skills
 ### language
-* **C/C++, Java**, Javascript, Dart, Python, **Delphi**
+* **C/C++, Java**, Javascript, Dart
 ### framework
-* SpringBoot, ExpressJs, Flutter, Delphi(seriously?)
+* SpringBoot, ExpressJs, Flutter
 ### interested in
 * Algorithm, Problem Solving, Competitive Progrmming
