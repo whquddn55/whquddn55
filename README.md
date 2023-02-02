@@ -23,14 +23,22 @@
   * 2022 제 2회 부산대학교 프로그래밍 대회 Coderace 문제 출제
     - https://www.acmicpc.net/problem/25577
     - https://www.acmicpc.net/problem/25579
-
   * 2022 제7회 PNU 대학생 프로그래밍 경진대회 대상
   * 2022 대학생 프로그래밍 경시대회(ICPC) 본선 진출(41th)
   * 2022 전기 졸업과제 은상
   * 2022 제3회 AI 블록체인 아이디어 경진대회 우수상
   * 2022 정컴 TechWeek-프로그래밍 경진대회 금상
   * 2022 BUSAN 코딩테스트 경진대회 대상
+  * SSAFY 9기 최종 합격(입과 포기)
   * 2022 LG CNS CODEMONSTER 예,본선 통과 및 입사
+  * Good Bye, BOJ 2022! 본선 진출
+  
+</details>
+
+<details>
+  <summary>2023</summary>
+
+  * Hello, BOJ 2023! 참가(57th)
   
 </details>
 
@@ -38,6 +46,6 @@
 ### language
 * **C/C++, Java**, Javascript, Dart
 ### framework
-* SpringBoot, ExpressJs, Flutter
+* SpringBoot, Jpa, Flutter
 ### interested in
 * Algorithm, Problem Solving, Competitive Progrmming
