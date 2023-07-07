@@ -1,6 +1,6 @@
 [![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=whquddn55)](https://solved.ac/whquddn55)
 
-## 경력
+## What i did
 <details>
   <summary>2021</summary>
 
@@ -29,7 +29,7 @@
   * _**2022 정컴 TechWeek-프로그래밍 경진대회 금상**_
   * _**2022 BUSAN 코딩테스트 경진대회 대상**_
   * SSAFY 9기 최종 합격(입과 포기)
-  * _**2022 LG CNS CODEMONSTER 예,본선 통과 및 입사**_
+  * _**2022 LG CNS CODEMONSTER 최종 합격**_
   * Good Bye, BOJ 2022! 본선 진출
   
 </details>
