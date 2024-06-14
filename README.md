@@ -1,5 +1,12 @@
 [![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=whquddn55)](https://solved.ac/whquddn55)
-
+<div className="animatedText">
+        <span style={{ animationDelay: '0s', opacity: 0, animation: 'fadeIn 0.05s forwards' }}>a</span>
+        <span style={{ animationDelay: '0.05s', opacity: 0, animation: 'fadeIn 0.05s forwards' }}>b</span>
+        <span style={{ animationDelay: '0.1s', opacity: 0, animation: 'fadeIn 0.05s forwards' }}>c</span>
+        <span style={{ animationDelay: '0.15s', opacity: 0, animation: 'fadeIn 0.05s forwards' }}>d</span>
+        <span style={{ animationDelay: '0.2s', opacity: 0, animation: 'fadeIn 0.05s forwards' }}>e</span>
+        <span style={{ animationDelay: '0.25s', opacity: 0, animation: 'fadeIn 0.05s forwards' }}>f</span>
+      </div>
 ## What i did
 <details>
   <summary>2021</summary>
