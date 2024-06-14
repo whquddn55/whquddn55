@@ -1,8 +1,26 @@
-<div className="animatedText">
-  <span style={{ animationDelay: '0s', opacity: 0, animation: 'fadeIn 0.05s forwards' }}>a</span>
-  <span style={{ animationDelay: '0.05s', opacity: 0, animation: 'fadeIn 0.05s forwards' }}>b</span>
-  <span style={{ animationDelay: '0.1s', opacity: 0, animation: 'fadeIn 0.05s forwards' }}>c</span>
-  <span style={{ animationDelay: '0.15s', opacity: 0, animation: 'fadeIn 0.05s forwards' }}>d</span>
-  <span style={{ animationDelay: '0.2s', opacity: 0, animation: 'fadeIn 0.05s forwards' }}>e</span>
-  <span style={{ animationDelay: '0.25s', opacity: 0, animation: 'fadeIn 0.05s forwards' }}>f</span>
+<style>
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  .animatedText span {
+    opacity: 0;
+    animation: fadeIn 0.05s forwards;
+  }
+  .animatedText span:nth-child(1) { animation-delay: 0s; }
+  .animatedText span:nth-child(2) { animation-delay: 0.05s; }
+  .animatedText span:nth-child(3) { animation-delay: 0.1s; }
+  .animatedText span:nth-child(4) { animation-delay: 0.15s; }
+  .animatedText span:nth-child(5) { animation-delay: 0.2s; }
+  .animatedText span:nth-child(6) { animation-delay: 0.25s; }
+</style>
+</head>
+<body>
+<div class="animatedText">
+  <span>a</span>
+  <span>b</span>
+  <span>c</span>
+  <span>d</span>
+  <span>e</span>
+  <span>f</span>
 </div>
