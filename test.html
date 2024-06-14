@@ -1,26 +1,228 @@
 <style>
-  @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+  @keyframes slide-in {
+    0% {
+      transform: translate(-10px, -10px); /* 시작 위치: 오른쪽 위 대각선 방향에서 100px */
+      opacity: 0;
+      visibility: hidden;
+    }
+    1% {
+      visibility: visible;
+    }
+    100% {
+      transform: translate(0, 0); /* 최종 위치: 원래 위치 */
+      opacity: 1;
+      visibility: visible;
+    }
   }
-  .animatedText span {
-    opacity: 0;
-    animation: fadeIn 0.05s forwards;
+  .diagonal-slide {
+    animation: slide-in 1s ease-out forwards; /* 애니메이션 적용 */
   }
-  .animatedText span:nth-child(1) { animation-delay: 0s; }
-  .animatedText span:nth-child(2) { animation-delay: 0.05s; }
-  .animatedText span:nth-child(3) { animation-delay: 0.1s; }
-  .animatedText span:nth-child(4) { animation-delay: 0.15s; }
-  .animatedText span:nth-child(5) { animation-delay: 0.2s; }
-  .animatedText span:nth-child(6) { animation-delay: 0.25s; }
+
+  .delay015 {
+    animation-delay: 0.15s;
+    visibility: hidden;
+  }
+  .delay030 {
+    animation-delay: 0.3s;
+    visibility: hidden;
+  }
+  .delay045 {
+    animation-delay: 0.45s;
+    visibility: hidden;
+  }
+  .delay060 {
+    animation-delay: 0.6s;
+    visibility: hidden;
+  }
+  .delay075 {
+    animation-delay: 0.75s;
+    visibility: hidden;
+  }
+  .delay090 {
+    animation-delay: 0.9s;
+    visibility: hidden;
+  }
+  .delay105 {
+    animation-delay: 1.05s;
+    visibility: hidden;
+  }
+  .delay120 {
+    animation-delay: 1.2s;
+    visibility: hidden;
+  }
+  .delay135 {
+    animation-delay: 1.35s;
+    visibility: hidden;
+  }
+  .delay150 {
+    animation-delay: 1.5s;
+    visibility: hidden;
+  }
+  .delay165 {
+    animation-delay: 1.65s;
+    visibility: hidden;
+  }
+  .delay180 {
+    animation-delay: 1.8s;
+    visibility: hidden;
+  }
+  .delay195 {
+    animation-delay: 1.95s;
+    visibility: hidden;
+  }
+  .delay210 {
+    animation-delay: 2.1s;
+    visibility: hidden;
+  }
+  .delay225 {
+    animation-delay: 2.25s;
+    visibility: hidden;
+  }
+  .delay240 {
+    animation-delay: 2.4s;
+    visibility: hidden;
+  }
+  .delay255 {
+    animation-delay: 2.55s;
+    visibility: hidden;
+  }
+  .delay270 {
+    animation-delay: 2.7s;
+    visibility: hidden;
+  }
+  .delay285 {
+    animation-delay: 2.85s;
+    visibility: hidden;
+  }
+  .delay300 {
+    animation-delay: 3s;
+    visibility: hidden;
+  }
+  .delay315 {
+    animation-delay: 3.15s;
+    visibility: hidden;
+  }
+  .delay330 {
+    animation-delay: 3.3s;
+    visibility: hidden;
+  }
+  .delay345 {
+    animation-delay: 3.45s;
+    visibility: hidden;
+  }
+  .delay360 {
+    animation-delay: 3.6s;
+    visibility: hidden;
+  }
+  .delay375 {
+    animation-delay: 3.75s;
+    visibility: hidden;
+  }
+  .delay390 {
+    animation-delay: 3.9s;
+    visibility: hidden;
+  }
+  .delay405 {
+    animation-delay: 4.05s;
+    visibility: hidden;
+  }
+  .delay420 {
+    animation-delay: 4.2s;
+    visibility: hidden;
+  }
+  .delay435 {
+    animation-delay: 4.35s;
+    visibility: hidden;
+  }
+  .delay450 {
+    animation-delay: 4.5s;
+    visibility: hidden;
+  }
+  .delay465 {
+    animation-delay: 4.65s;
+    visibility: hidden;
+  }
+  .delay480 {
+    animation-delay: 4.8s;
+    visibility: hidden;
+  }
+  .delay495 {
+    animation-delay: 4.95s;
+    visibility: hidden;
+  }
+  .delay510 {
+    animation-delay: 5.1s;
+    visibility: hidden;
+  }
+  .delay525 {
+    animation-delay: 5.25s;
+    visibility: hidden;
+  }
+  .delay540 {
+    animation-delay: 5.4s;
+    visibility: hidden;
+  }
 </style>
-</head>
-<body>
-<div class="animatedText">
-  <span>a</span>
-  <span>b</span>
-  <span>c</span>
-  <span>d</span>
-  <span>e</span>
-  <span>f</span>
+<div>
+  <h3>2021</h3>
+  <ul>
+    <li class="diagonal-slide delay015">제4회 부산대학교 창의융합SW해커톤 장려상</li>
+    <li class="diagonal-slide delay030">백엔드(Docker + ExpressJs + ElasticSearch)</li>
+    <li class="diagonal-slide delay045">2021 제6회 PNU 대학생 프로그래밍 경진대회 대상</li>
+    <li class="diagonal-slide delay060">2021 대학생 프로그래밍 경시대회(ICPC) 본선 진출(36th)</li>
+    <li class="diagonal-slide delay075">
+      2021 삼성전자 대학생 프로그래밍 경진대회(SCPC) 본선 진출
+    </li>
+  </ul>
+  <h3>2022</h3>
+  <ul>
+    <li class="diagonal-slide delay090">
+      2022 전국 대학생 프로그래밍 대회 동아리 연합 여름 대회(UCPC) 본선 진출
+    </li>
+    <li class="diagonal-slide delay105">
+      <strong>2022 전국 대학생 프로그래밍 대회 동아리 연합 여름 대회(UCPC) 특별상 수상</strong>
+    </li>
+    <li class="diagonal-slide delay120">
+      2022 삼성전자 대학생 프로그래밍 경진대회(SCPC) 본선 진출
+    </li>
+    <li class="diagonal-slide delay135">
+      <strong>2022 제3회 AI·블록체인 아이디어 경진대회 우수상 수상</strong>
+    </li>
+    <li class="diagonal-slide delay150">
+      <strong>2022 부산코딩경진대회 대학부 2위</strong>
+    </li>
+    <li class="diagonal-slide delay165">
+      2022 제 2회 부산대학교 프로그래밍 대회 Coderace 문제 출제
+    </li>
+    <ul>
+      <li class="diagonal-slide delay180">
+        <a href="https://www.acmicpc.net/problem/25577">https://www.acmicpc.net/problem/25577</a>
+      </li>
+      <li class="diagonal-slide delay195">
+        <a href="https://www.acmicpc.net/problem/25579">https://www.acmicpc.net/problem/25579</a>
+      </li>
+    </ul>
+    <li class="diagonal-slide delay210">
+      <strong>2022 제7회 PNU 대학생 프로그래밍 경진대회 대상</strong>
+    </li>
+    <li class="diagonal-slide delay225">2022 대학생 프로그래밍 경시대회(ICPC) 본선 진출(41th)</li>
+    <li class="diagonal-slide delay240">
+      <strong>2022 전기 졸업과제 은상</strong>
+    </li>
+    <li class="diagonal-slide delay255">
+      <strong>2022 정컴 TechWeek-프로그래밍 경진대회 금상</strong>
+    </li>
+    <li class="diagonal-slide delay270">
+      <strong>2022 BUSAN 코딩테스트 경진대회 대상</strong>
+    </li>
+    <li class="diagonal-slide delay285">SSAFY 9기 최종 합격</li>
+    <li class="diagonal-slide delay300">
+      <strong>2022 LG CNS CODEMONSTER 최종 합격</strong>
+    </li>
+    <li class="diagonal-slide delay315">Good Bye, BOJ 2022! 본선 진출</li>
+  </ul>
+  <h3>2023</h3>
+  <ul>
+    <li class="diagonal-slide delay330">Hello, BOJ 2023! 참가(57th)</li>
+  </ul>
 </div>
