@@ -1,4 +1,10 @@
-<svg fill="none" viewBox="0 0 700 700" width="700" height="700" xmlns="http://www.w3.org/2000/svg">
+<svg
+  fill="none"
+  viewBox="0 0 700 1200"
+  width="700"
+  height="1200"
+  xmlns="http://www.w3.org/2000/svg"
+>
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
@@ -196,6 +202,7 @@
         }
       </style>
       <div class="container">
+        <h1>What I done</h1>
         <h3>2021</h3>
         <hr />
         <ul>
@@ -275,6 +282,21 @@
         <hr />
         <ul>
           <li class="diagonal-slide delay330 dimmed">Hello, BOJ 2023! 참가(57th)</li>
+        </ul>
+
+        <h1>Skills</h1>
+        <hr />
+        <h3>FrontEnd</h3>
+        <ul>
+          <li class="diagonal-slide delay345">
+            <strong>React, NextJs, Typescript, React-Query</strong>
+          </li>
+        </ul>
+        <h3>BackEnd</h3>
+        <ul>
+          <li class="diagonal-slide delay360">
+            <strong>SpringBoot, JPA, MySQL</strong>
+          </li>
         </ul>
       </div>
     </div>
